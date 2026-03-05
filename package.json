@@ -3,7 +3,7 @@
     "scripts": {
         "start": "npx tsx app.ts",
         "dev": "npx tsx watch app.ts",
-        "build": "prisma generate"
+        "build": "npx prisma generate"
     },
     "devDependencies": {
         "@types/cors": "^2.8.19",
