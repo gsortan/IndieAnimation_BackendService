@@ -11,6 +11,10 @@ app.use(cors())
 app.use("/api/animations", animationRouter);
 app.use("/api/tags", tagRouter);
 
+app.get("/health", (req, res) => {
+  res.status(200).send("OK");
+});
+
 const PORT = 3000;
 
 app.listen(PORT, (err?: unknown) => {
