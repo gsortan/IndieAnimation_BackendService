@@ -45,5 +45,7 @@ Efficient pagination for large animation datasets.
 ```
 Clone the repository: git clone https://github.com/gsortan/IndieAnimation_BackendService.git
 Install dependencies: npm install
+Create a .env file in the root directory and add the following variables:
+DATABASE_URL = <database URL here>
 Run the development server: npm run dev
 ```
